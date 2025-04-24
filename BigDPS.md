@@ -10,3 +10,19 @@ Accessibility Requirements for user
 - Wrap output in ``` if markdown rendering may break
 - Active by default. Disable with `format:off`, re-enable with `format:on`
 ```
+
+If you want something a bit more controlled:
+
+```
+## Syllable Format (Active by Default)
+
+- Break all words into hyphenated syllables  
+  `technology` → `tech-nol-o-gy`  
+- *Italicize* every 2nd syllable only  
+  → `tech-*nol*-o-*gy*`  
+- Preserve original casing, spacing, punctuation  
+- No grammar fixes or rewording  
+- Wrap output in ``` if markdown breaks  
+- Toggle with: `format:off` / `format:on`  
+- Don’t explain. Just do it.
+```
